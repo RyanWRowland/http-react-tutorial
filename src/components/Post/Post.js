@@ -1,14 +1,16 @@
 import React from 'react';
-
+// import PropTypes from 'prop-types';
 import './Post.css';
 
-const post = (props) => (
-    <article className="Post">
-        <h1>Title</h1>
-        <div className="Info">
-            <div className="Author">Author</div>
-        </div>
-    </article>
+const post = () => (
+  <article className="Post">
+    <h1>Title</h1>
+    <div className="Info">
+      <div className="Author">Author</div>
+    </div>
+  </article>
 );
+
+// post.propTypes = {};
 
 export default post;
